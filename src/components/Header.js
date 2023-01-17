@@ -3,7 +3,8 @@ import { useDispatch } from "react-redux";
 import tickImage from "../assets/images/double-tick.png";
 import noteImage from "../assets/images/notes.png";
 import plusImage from "../assets/images/plus.png";
-import { added, allCompleted, clearCompleted } from "../redux/todos/actions";
+import { allCompleted, clearCompleted } from "../redux/todos/actions";
+import addedTodos from "../redux/todos/thunk/addTodo";
 
 export default function Header() {
     const dispatch = useDispatch();
@@ -15,7 +16,7 @@ export default function Header() {
 
     const submitHandler = (e) => {
         e.preventDefault();
-        dispatch(added(input));
+        dispatch(addedTodos(input));
         setInput("");
     };
 
@@ -30,7 +31,7 @@ export default function Header() {
     return (
         <div>
             <form
-                className="flex items-center bg-gray-100 px-4 py-4 rounded-md"
+                className="mt-5 flex items-center bg-gray-100 px-4 py-4 rounded-md"
                 onSubmit={submitHandler}
             >
                 <img src={noteImage} className="w-6 h-6" alt="Add todo" />
