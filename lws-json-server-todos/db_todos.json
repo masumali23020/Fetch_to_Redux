@@ -54,63 +54,28 @@
     },
     {
       "text": "hdjhdjhdjsdh",
-      "completed": false,
+      "completed": true,
       "id": 9
     },
     {
       "text": "masum Ali",
-      "completed": false,
+      "completed": true,
       "id": 10
     },
     {
       "text": "toya",
-      "completed": false,
+      "completed": true,
       "id": 11
     },
     {
       "text": "sdfas",
-      "completed": false,
+      "completed": true,
       "id": 12
     },
     {
-      "text": "dsfaa",
-      "completed": false,
-      "id": 13
-    },
-    {
       "text": "masim ",
-      "completed": false,
+      "completed": true,
       "id": 14
-    },
-    {
-      "id": 15
-    },
-    {
-      "id": 16
-    },
-    {
-      "id": 17
-    },
-    {
-      "id": 18
-    },
-    {
-      "text": "hi the",
-      "completed": false,
-      "id": 19,
-      "color": "red"
-    },
-    {
-      "text": "kk",
-      "completed": false,
-      "id": 20,
-      "color": "green"
-    },
-    {
-      "text": "masum",
-      "completed": false,
-      "id": 21,
-      "color": "red"
     }
   ]
 }
