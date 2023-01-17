@@ -5,7 +5,7 @@ import {
     COLORSELECTED,
     DELETED,
     LOADED,
-    TOGGLED,
+    TOGGLED
 } from "./actionTypes";
 import initialState from "./initialState";
 

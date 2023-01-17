@@ -5,15 +5,14 @@ import {
     COLORSELECTED,
     DELETED,
     LOADED,
-    TOGGLED,
+    TOGGLED
 } from "./actionTypes";
-
 export const loaded = (todos) => {
     return {
         type: LOADED,
-        payload: todos,
-    };
-};
+        payload: todos
+    }
+}
 
 export const added = (todoText) => {
     return {
